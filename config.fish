@@ -43,7 +43,7 @@ set -Ux VISUAL gedit
 set -Ux BROWSER firefox
 set -Ux MANPAGER "sh -c 'col -bx | bat -l man -p'"
 set -Ux MANROFFOPT "-c"
-set -Ux LESS eFRX
+set -Ux LESS FRX
 
 # Adding paths to fish
 fish_add_path ~/.local/bin
