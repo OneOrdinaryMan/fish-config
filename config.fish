@@ -38,7 +38,7 @@ end
 fortune | cowsay | lolcat
 
 # Adding some enviroinmental variables
-set -Ux EDITOR vi
+set -Ux EDITOR "vi -e"
 set -Ux VISUAL nvim
 set -Ux BROWSER firefox
 set -Ux MANPAGER "sh -c 'col -bx | bat -l man -p'"

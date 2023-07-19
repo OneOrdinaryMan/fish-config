@@ -1,7 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export BROWSER:firefox
-SETUVAR --export EDITOR:vi
+SETUVAR --export EDITOR:vi\x20\x2de
 SETUVAR --export LESS:FRX
 SETUVAR --export MANPAGER:sh\x20\x2dc\x20\x27col\x20\x2dbx\x20\x7c\x20bat\x20\x2dl\x20man\x20\x2dp\x27
 SETUVAR --export MANROFFOPT:\x2dc
