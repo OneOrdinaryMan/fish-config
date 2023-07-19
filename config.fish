@@ -38,8 +38,8 @@ end
 fortune | cowsay | lolcat
 
 # Adding some enviroinmental variables
-set -Ux EDITOR nvim
-set -Ux VISUAL gedit
+set -Ux EDITOR vi
+set -Ux VISUAL nvim
 set -Ux BROWSER firefox
 set -Ux MANPAGER "sh -c 'col -bx | bat -l man -p'"
 set -Ux MANROFFOPT "-c"
@@ -49,6 +49,7 @@ set -Ux LESS FRX
 fish_add_path ~/.local/bin
 fish_add_path ~/.scripts
 fish_add_path ~/.cargo/bin
+fish_add_path /usr/lib/dart/bin
 
 # Aliasing the keybindings
 abbr mv "mv -vi"
