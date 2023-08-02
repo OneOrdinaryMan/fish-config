@@ -2,6 +2,7 @@
 # VERSION: 3.0
 SETUVAR --export BROWSER:firefox
 SETUVAR --export EDITOR:vi\x20\x2de
+SETUVAR --export JAVA_HOME:/usr/lib/jvm/java\x2d8\x2dopenjdk/
 SETUVAR --export LESS:FRX
 SETUVAR --export MANPAGER:sh\x20\x2dc\x20\x27col\x20\x2dbx\x20\x7c\x20bat\x20\x2dl\x20man\x20\x2dp\x27
 SETUVAR --export MANROFFOPT:\x2dc
@@ -35,4 +36,4 @@ SETUVAR fish_pager_color_description:B3A06D\x1eyellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/srivathsans/\x2elocal/bin\x1e/home/srivathsans/\x2ecargo/bin\x1e/home/srivathsans/\x2econfig/emacs/bin\x1e/home/srivathsans/\x2escripts
+SETUVAR fish_user_paths:/opt/android\x2dsdk/emulator\x1e/opt/android\x2dsdk/tools\x1e/opt/android\x2dsdk/tools/bin\x1e/opt/android\x2dsdk/platform\x2dtools\x1e/opt/android\x2dsdk\x1e/opt/flutter/bin\x1e/home/srivathsans/\x2elocal/bin\x1e/home/srivathsans/\x2ecargo/bin\x1e/home/srivathsans/\x2econfig/emacs/bin\x1e/home/srivathsans/\x2escripts

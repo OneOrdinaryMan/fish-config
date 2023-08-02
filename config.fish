@@ -44,11 +44,17 @@ set -Ux BROWSER firefox
 set -Ux MANPAGER "sh -c 'col -bx | bat -l man -p'"
 set -Ux MANROFFOPT "-c"
 set -Ux LESS FRX
+set -Ux JAVA_HOME "/usr/lib/jvm/java-8-openjdk/"
 
 # Adding paths to fish
 fish_add_path ~/.local/bin
 fish_add_path ~/.scripts
 fish_add_path ~/.cargo/bin
+fish_add_path /opt/android-sdk/platform-tools/
+fish_add_path /opt/android-sdk/tools/bin/
+fish_add_path /opt/android-sdk/tools/
+fish_add_path /opt/android-sdk/emulator/
+fish_add_path /opt/flutter/bin
 fish_add_path /usr/lib/dart/bin
 
 # Aliasing the keybindings
